@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+   <libro cod="1">
+      <fecha_adquisicion>30-09-2013</fecha_adquisicion>
+      <titulo>Don Quixote de La Mancha</titulo>
+      <autor>Miguel de Cervantes</autor>
+      <precio>15,50</precio>
+      <cantidad>10</cantidad>
+      <categoria>Psicologica</categoria>
+   </libro>
+   <libro cod="2">
+      <fecha_adquisicion>5-10-2024</fecha_adquisicion>
+      <titulo>Berserk</titulo>
+      <autor>Kentaro Miura</autor>
+      <precio>16,95</precio>
+      <cantidad>1</cantidad>
+      <categoria>Serie de comic</categoria>
+   </libro>
+   <libro cod="3">
+      <fecha_adquisicion>20-12-2020</fecha_adquisicion>
+      <titulo>The Maze Runner</titulo>
+      <autor>James Dashner</autor>
+      <precio>20</precio>
+      <cantidad>5</cantidad>
+      <categoria>Escenario apocalíptico</categoria>
+   </libro>
+</biblioteca>

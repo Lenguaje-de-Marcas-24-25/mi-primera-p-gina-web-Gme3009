@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+   <ciudad cod="1">
+      <nombre>Tokyo</nombre>
+      <pais continente="Asia">Japon</pais>
+      <poblacion>37.115.035</poblacion>
+      <fundacion>Año 1457 d.C.</fundacion>
+      <descripcion>Es conocida por su mezcla única de modernidad y tradición, con rascacielos futuristas, tecnología avanzada, y una rica herencia cultural que incluye templos, santuarios y jardines históricos. </descripcion>
+   </ciudad>
+   <ciudad cod="2">
+      <nombre>Córdoba</nombre>
+      <pais continente="Europa">España</pais>
+      <poblacion>325.000</poblacion>
+      <fundacion>169 a.C.</fundacion>
+      <descripcion>Es famosa por su impresionante herencia arquitectónica, que refleja la mezcla de civilizaciones que la han habitado a lo largo de los siglos: romanos, visigodos, musulmanes y cristianos.</descripcion>
+   </ciudad>
+   <ciudad cod="3">
+      <nombre>Ciudad de México</nombre>
+      <pais continente="América">México</pais>
+      <poblacion>9209944</poblacion>
+      <fundacion>1325</fundacion>
+      <descripcion>Una de las ciudades más grandes del mundo, rica en historia y cultura.</descripcion>
+   </ciudad>
+</ciudades>

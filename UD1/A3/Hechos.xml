@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hechos>
+   <hecho descripcion="Caída del Muro de Berlín">
+      <dia>9</dia>
+      <mes>11</mes>
+      <año>1989</año>
+   </hecho>
+   <hecho descripcion="Invención de la bombilla">
+      <dia>21</dia>
+      <mes>10</mes>
+      <año>1879</año>
+   </hecho>
+   <hecho descripcion="Descubrimiento de America">
+      <dia>12</dia>
+      <mes>10</mes>
+      <año>1492</año>
+   </hecho>
+   <hecho descripcion="Caida del Imperio Romano">
+      <dia>4</dia>
+      <mes>9</mes>
+      <año>476</año>
+   </hecho> 
+</hechos>

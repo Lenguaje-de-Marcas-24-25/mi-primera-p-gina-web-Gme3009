@@ -1,0 +1,54 @@
+.horario {
+    border: 4px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+td, tr {
+    border: 2px black solid;
+    padding: 5px 20px;
+}
+
+.encabezado {
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th {
+    border: 2px black solid;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.BADAT {
+    background-color: lightblue;
+}
+
+.LMSGI {
+    background-color: lightcoral;
+}
+
+.PROGR {
+    background-color: lightgreen;
+}
+
+.ENDES {
+    background-color: lightgoldenrodyellow;
+}
+
+.SIINF {
+    background-color: lightsalmon;
+}
+
+.IPE1 {
+    background-color: lightskyblue;
+}
+
+.DASPGS {
+    background-color: lightcyan;
+}
+
+.SOST {
+    background-color: lightseagreen;
+}

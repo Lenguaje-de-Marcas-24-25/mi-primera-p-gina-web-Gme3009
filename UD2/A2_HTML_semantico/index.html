@@ -1,75 +1,183 @@
 <!DOCTYPE html>
-<html lang=”es”>
-<head>
-<meta charset=”utf-8”/>
-<title>Practica UD2</title>
-<style>
-    a {
-        color: red;
-        text-decoration: none;
-    }
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica UD2</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
 
-    a:visited {
-        color: darkgreen;
-        text-decoration: none;
-    }
+            body{
+                background-color: lightgray;
+                font-family: Arial, Helvetica, sans-serif;
+            }
 
-    a:hover {
-        color: white;
-        background-color: red;
-        text-decoration: underline;
-    }
+            #container{
+                /*width: 70%;*/
+                width: 1100px;
+                margin: 0px auto;
+                border: 1px solid black;
+            }
 
-    a:active {
-        color: orange;
-        text-decoration: none;
-    }
+            header{
+                background: red;
+                height: 100px;
+                width: 100%;
+                margin: 0px;
+                text-align: center;
+                line-height: 100px;
+                color: white;
+                border-bottom: 3px dashed black;
+            }
 
-    a:focus {
-        color: blue;
-        text-decoration: underline;
-    }
-</style>
-</head>
-<body>
-<header>
-<h1>Practica UD2</h1>
-<img src="https://www.alamarte.com/images/alamarte/html5-css3.jpg"\>
-</header>
-<nav>
-<a href='sobremi.html'>Sobre mi</a><br>
-<a href='listas.html'>Listas</a><br>
-<a href='tablas.html'>Tablas</a><br>
-<a href='formulario.html'>Formulario</a><br>
-<a href='enlacesimagenes.html'>Enlaces, Imagenes</a><br>
-<a href='htmlcss1.html'>HTML Y CSS 1</a><br>
-<a href='htmlcss2.html'>HTML Y CSS 2</a><br>
-</nav>
-<section>
-<h2>Desarrollo web estático</h2>
-<p>
-Bienvenidos al portal de ayuda al desarrollo web
-estático...
-</p>
-</section>
-<aside>
-<h2>Novedades</h2>
-<p>
-10 de Agosto – Se ha incluido un artículo sobre los
-gradientes en las imágenes de fondo
-</p>
-<p>
-12 de Agosto – Se incluye un zip con miles de iconos en
-formato png.
-</p>
-...
-</aside>
-<footer>
-<p>
-Desarrollo web estático se distribuye bajo licencia
-Creative Commons Atribución-NoComercial-CompartirIgual 3.0
-Unported
-</p>
-</footer>
-</body>
+            nav{
+                background-color: lightblue;
+                height: 50px;
+                border-bottom: 1px solid black;
+            }
+
+            nav ul li{
+                float: left;
+                list-style: none;
+                margin: 10px;
+                line-height: 30px;
+            }
+
+            .clearfix{
+                clear: both;
+            }
+            
+            #content{
+                float: left;
+                width: calc(80% - 80px);
+                min-height: 500px;
+                background: green;
+                padding: 40px;
+            }
+
+            .article{
+                color: white;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #eee;
+            }
+
+            .article:first-child{
+                padding-top: 10px;
+                border-bottom: 1px solid #eee;
+            }
+
+            .article h2{
+                font-size: 25px;
+            }
+
+            aside{
+                float: left;
+                width: calc(20% - 20px);
+                min-height: 500px;
+                background: orange;
+                padding: 10px;
+            }
+
+            footer{
+                background: black;
+                color: white;
+                text-align: center;
+                height: 50px;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="container">
+
+            <header>
+                <h1>Practica UD2</h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href='sobremi.html'>Sobre mi</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href='listas.html'>Listas</a><br>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href='tablas.html'>Tablas</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href='formulario.html'>Formulario</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href='enlacesimagenes.html'>Enlaces, Imagenes</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href='htmlcss1.html'>HTML Y CSS 1</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href='htmlcss2.html'>HTML Y CSS 2</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="clearfix"></div>
+
+            <section id="content">
+
+                <article class="article">
+                    <h2>Titulo del articulo</h2>
+                    <p>Texto del articulo</p>
+                </article>
+
+                <article class="article">
+                    <h2>Titulo del articulo</h2>
+                    <p>Texto del articulo</p>
+                </article>
+
+                <article class="article">
+                    <h2>Titulo del articulo</h2>
+                    <p>Texto del articulo</p>
+                </article>
+
+                <article class="article">
+                    <h2>Titulo del articulo</h2>
+                    <p>Texto del articulo</p>
+                </article>
+            </section>
+
+            <aside>
+                <h2>Barra lateral</h2>
+                <form>
+                    <input type="text">
+                    <input type="submit" value="Buscar">
+                </form>
+            </aside>
+
+            <div class="clearfix"></div>
+
+            <footer>
+                Germán Moscoso Escudero &copy; 2024
+            </footer>
+
+        </div>
+
+    </body>
 </html>

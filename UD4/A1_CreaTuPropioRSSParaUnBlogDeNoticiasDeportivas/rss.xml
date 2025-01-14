@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias Deportivas</title>
+        <link></link>
+        <description>Últimas noticias del mundo del deporte</description>
+        <pubDate>martes, 14 enero 2025 12:00:00 GMT</pubDate>
+        
+        <item>
+            <title>El Athletic vence al Barcelona con un aplasteante 4-0 en la ida de la final de la supercopa de españa</title>
+            <link>https://noticia1.html</link>
+            <description>Una final de supercopa de españa para enmarcar, en la cual los leones aplastaron a los azulgranas en su catedral con un aplastante 4-0 con un hack-trick de aduriz y un golazo de san jose para enmarcar en las historia del club.</description>
+            <category>Fútbol</category>
+            <pubDate>martes, 14 enero 2025 12:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>El barcelona le hace otra manita al madrid en una final muy humillante</title>
+            <link>https://noticia2.html</link>
+            <description>Los azulgranas aplastan en la final de la supercopa de españa a los merengues con un aplastante 2-5 levanta otra manita a su eterno rival humillandolos por segunda vez en la historia de los clasicos.</description>
+            <category>Fútbol</category>
+            <pubDate>martes, 14 enero 2025 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
